@@ -9,15 +9,35 @@
   font-style: normal;
   display: block;
   transition: transform 0.5s ease-in-out;
+  overflow: auto;
+}
+.newsidebar{
+  background-color: #222222;
+  color: white;
+  height: 100vh;
+  width: 80px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  transition: transform 0.5s ease-in-out;
+  overflow: auto;
+  display: none;
+
 }
 .close {
   height: 40px;
   margin-top: 10px;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out ;
+}
+.close:hover{
+  transform: rotate(180deg);
 }
 .Manue {
   /* text-align: center; */
-  padding-top: 100px;
+  padding-top: 50px;
   display: flex;
     align-items: center;
     justify-content: center;
@@ -36,3 +56,18 @@
   color: white;
 
 }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.manue{
+  transition: transform 0.5s ease-in-out ;
+
+}
+.manue:hover{
+  transform: rotate(180deg);
+}
+
