@@ -33,16 +33,14 @@ body::-webkit-scrollbar-thumb {
   background-clip: content-box;
 }
 
-::-webkit-scrollbar {
-  width: 0.5rem;
+body::-webkit-scrollbar {
+  width: 10px;
 }
-
-::-webkit-scrollbar-track {
-  background: var(--backgroundColor);
+body::-webkit-scrollbar-track {
+  background-color: rgb(219, 218, 218);
 }
-
-::-webkit-scrollbar-thumb {
-  background: var(--hover);
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(62, 62, 62);
   border-radius: 10px;
   border: 2px solid transparent;
   background-clip: content-box;

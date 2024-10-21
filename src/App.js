@@ -12,6 +12,7 @@ import Skill from './component/Skill';
 import Contact from './component/Contact';
 import Loader from './component/Loder';
 import { useState } from 'react';
+import "./media.css"
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);

@@ -33,7 +33,7 @@ export default function Navebar({startLoader}) {
             <div className={`saidbar ${navhide===true?"hide":""}`}>
                 <img onClick={handleclose}  className="close" src={closepic} alt="" />
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
-                    <img src={mypic} alt="" style={{width:"100px",height:"100px", borderRadius:"50%"}} />
+                    <img src={mypic} alt="" style={{width:"100px",height:"100px", borderRadius:"50%",cursor:"pointer"}} />
                     <ul>
                         <Link onClick={loctaion.pathname==="/"?null:handleclick} to="/" className={`${loctaion.pathname === "/" ? "active" : "dactive"}`} > <div style={{display:"flex"}}> <img className='mx-2' src={loctaion.pathname==="/"?homecolor:home}  alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /> <li  style={{ cursor: "pointer" }} className="home">Home</li></div></Link>
 

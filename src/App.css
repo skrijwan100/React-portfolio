@@ -61,7 +61,7 @@
 }
 .show{
   display: block;
-  transition: all 1s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 .manue{
   transition: transform 0.5s ease-in-out ;
@@ -70,4 +70,15 @@
 .manue:hover{
   transform: rotate(180deg);
 }
-
+.cursor {
+  display: inline;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  animation: blink-animation 0.3s steps(2, start) infinite;
+}
+@keyframes blink-animation {
+  0% {
+      opacity: 0;
+  }
+}
