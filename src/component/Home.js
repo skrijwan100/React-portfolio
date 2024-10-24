@@ -1,15 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import myImg from "../Asset/my__pic.png"
-
+import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
-
+ 
   return (
 
-    <div className="main" style={{ backgroundColor: "black", color: "white", paddingLeft: "20px", paddingTop: "10px", display: "flex" }}>
+    <div className="main" style={{ backgroundColor: "#151515", color: "white", paddingLeft: "20px", paddingTop: "10px", display: "flex" }}>
       <div className="info">
         <h1 style={{ color: "#fa5c0e" }}>Hello, I am <span id="name">sk Rijwan</span></h1>
         {/* <h1>Web Developer | MERN Stack Developer | Flask Developer | React Developer </h1>  */}
-        <h1>I am a <span id="skill"></span><span className="cursor">|</span></h1>
+        <TypeAnimation
+        sequence={[
+          // Same substring at the start will only be typed out once, initially
+          'I am a Web Developer',
+          1500, // wait 1s before replacing "Mice" with "Hamsters"
+          'I am a MERN Stack Developer',
+          1500,
+          'I am a React Developer',
+          1500,
+          'I am a Flask Developer',
+          1500,
+        ]}
+        wrapper="h1"
+        speed={50}
+        repeat={Infinity}/>
 
         <div className="myinfo">
           Driven and passionate junior web developer with expertise in <br />
