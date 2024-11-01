@@ -12,9 +12,11 @@ import projrctcolor from"../Asset/projectcolor.svg"
 import conatc from"../Asset/contact.svg"
 import conatccolor from"../Asset/contactcolor.svg"
 import manue from "../Asset/menu.png"
+import Card from './Card'
 // const navhide=falses 
 export default function Navebar({startLoader}) {
     const [navhide,setnavhide]=useState(false)
+    const [card,setcard]=useState(false)
     const loctaion = useLocation()
     const handleclick=()=>{
         startLoader()
@@ -27,13 +29,23 @@ export default function Navebar({startLoader}) {
         setnavhide(false)
 
     }
+    const imgclick=(e)=>{
+        e.preventDefault();
+        setcard(true)
+
+
+    }
     return (
         <>
-        <div>
+        <div style={{display:card?"block":"none",position:"fixed",left:"10px",top:"220px"}}>
+
+        <Card/>
+        </div>
+        <div style={{backgroundColor:"#222222"}}>
             <div className={`saidbar ${navhide===true?"hide":""}`}>
                 <img onClick={handleclose}  className="close" src={closepic} alt="" />
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
-                    <img src={mypic} alt="" style={{width:"100px",height:"100px", borderRadius:"50%",cursor:"pointer"}} />
+                    <img onClick={imgclick} src={mypic} alt="" style={{width:"100px",height:"100px", borderRadius:"50%",cursor:"pointer"}} />
                     <ul>
                         <Link onClick={loctaion.pathname==="/"?null:handleclick} to="/" className={`${loctaion.pathname === "/" ? "active" : "dactive"}`} > <div style={{display:"flex"}}> <img className='mx-2' src={loctaion.pathname==="/"?homecolor:home}  alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /> <li  style={{ cursor: "pointer" }} className="home">Home</li></div></Link>
 
@@ -51,10 +63,10 @@ export default function Navebar({startLoader}) {
         </div>
 
         <div>
-        <div className={`newsidebar  ${navhide===true?"show":""} `}>
+        <div style={{backgroundColor:"#222222"}} className={`newsidebar  ${navhide===true?"show":""} `}>
                 <img onClick={showclick} className='manue'  style={{height:"25px",width:"25px", marginTop:"17px", cursor:"pointer"}} src={manue} alt="" />  
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
-                <img src={mypic} alt="" style={{width:"60px",height:"60px", borderRadius:"50%"}} />
+                <img onClick={imgclick} src={mypic} alt="" style={{width:"60px",height:"60px", borderRadius:"50%",cursor:"pointer"}} />
                     <ul>
                         <Link style={{marginLeft:"70px"}} onClick={loctaion.pathname==="/"?null:handleclick} to="/" className={`${loctaion.pathname === "/" ? "active" : "dactive"}`} > <div style={{display:"flex"}}> <img className='marginleft' src={loctaion.pathname==="/"?homecolor:home}  alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /></div></Link>
 
