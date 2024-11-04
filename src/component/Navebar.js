@@ -14,21 +14,21 @@ import conatccolor from"../Asset/contactcolor.svg"
 import manue from "../Asset/menu.png"
 import Card from './Card'
 // const navhide=falses 
-export default function Navebar({startLoader}) {
-    const [navhide,setnavhide]=useState(false)
+export default function Navebar({startLoader,handleclose,showclick,navhide}) {
+  
     const [card,setcard]=useState(false)
     const loctaion = useLocation()
     const handleclick=()=>{
         startLoader()
     }
 
-    const handleclose=()=>{
-      setnavhide(true)
-    }
-    const showclick=()=>{
-        setnavhide(false)
+    // const handleclose=()=>{
+    //   setnavhide(true)
+    // }
+    // const showclick=()=>{
+    //     setnavhide(false)
 
-    }
+    // }
     const imgclick=(e)=>{
         e.preventDefault();
         setcard(true)

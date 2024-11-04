@@ -2,7 +2,8 @@ import React from 'react';
 import myImg from "../Asset/my__pic.png"
 import { TypeAnimation } from 'react-type-animation';
 import { useNavigate } from 'react-router-dom';
-export default function Home() {
+export default function Home({navhide}) {
+  console.log(navhide)
   const naviget=useNavigate()
   const handleclick=(e)=>{
     e.preventDefault();
@@ -13,10 +14,9 @@ export default function Home() {
  
   return (
 
-    <div className="main" style={{ backgroundColor: "#151515", color: "white", paddingLeft: "20px", paddingTop: "10px", display: "flex" }}>
-      <div className="info">
+    <div className="main" style={{ backgroundColor: "#151515", color: "white", paddingLeft: "20px",paddingTop: "10px", display: "flex", }}>
+      <div className="info" style={{marginLeft: navhide?"88px":"202px" ,transition: "margin-left 0.4s ease-in-out"}}>
         <h1 style={{ color: "#fa5c0e", }}>Hello, I am <span id="name" style={{fontFamily:"Alegreya Sans SC",fontSize:"45px",fontWeight:"700"}}>Sk Rijwan</span></h1>
-        {/* <h1>Web Developer | MERN Stack Developer | Flask Developer | React Developer </h1>  */}
         <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially

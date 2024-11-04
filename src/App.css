@@ -7,6 +7,7 @@
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
+  position: fixed;
   font-style: normal;
   display: block;
   transition: transform 0.5s ease-in-out;
@@ -16,6 +17,7 @@
   background-color: #222222;
   color: white;
   height: 100vh;
+  position: fixed;
   width: 80px;
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
@@ -23,7 +25,8 @@
   font-style: normal;
   display: block;
   transition: transform 0.5s ease-in-out;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   display: none;
 
 }

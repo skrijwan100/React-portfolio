@@ -16,7 +16,15 @@ import "./media.css"
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
+  const [navhide,setnavhide]=useState(false)
   const [progress, setProgress] = useState(0);
+  const handleclose=()=>{
+    setnavhide(true)
+  }
+  const showclick=()=>{
+      setnavhide(false)
+
+  }
   const startLoader = () => {
     setProgress(0);
     setIsLoading(true);
@@ -37,9 +45,9 @@ function App() {
       <Loader  isLoading={isLoading} progress={progress}/>
       <div style={{display:'flex'}}>
 
-    <Navebar startLoader={startLoader}/> 
+    <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick}/> 
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={<Home navhide={navhide} handleclose={handleclose} showclick={showclick} />}/>
       <Route path='/project' element={<Project/>}/>
       <Route path='/skill' element={<Skill/>}/>
       <Route path='/contact' element={<Contact/>}/>
