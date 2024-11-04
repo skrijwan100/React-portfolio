@@ -43,11 +43,11 @@ function App() {
   return (
     <Router>
       <Loader  isLoading={isLoading} progress={progress}/>
-      <div style={{display:'flex'}}>
+      <div style={{display:'flex',backgroundColor:"#151515"}}>
 
     <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick}/> 
     <Routes>
-      <Route path='/' element={<Home navhide={navhide} handleclose={handleclose} showclick={showclick} />}/>
+      <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick} />}/>
       <Route path='/project' element={<Project/>}/>
       <Route path='/skill' element={<Skill/>}/>
       <Route path='/contact' element={<Contact/>}/>

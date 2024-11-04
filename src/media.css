@@ -2,4 +2,7 @@
     .main{
         flex-wrap: wrap;
     }
+    .mycard{
+        margin-left: 300px;
+    }
 }
