@@ -1,7 +1,5 @@
 import React from 'react';
-import myImg from "../Asset/my__pic.png"
 import github from "../Asset/githublogo.png"
-import instagram from "../Asset/instagramlogo.png"
 import { TypeAnimation } from 'react-type-animation';
 import { useNavigate, Link } from 'react-router-dom';
 import Card from './Card'
@@ -38,7 +36,7 @@ export default function Home({ navhide, startLoader }) {
           speed={50}
           repeat={Infinity} />
 
-        <div className="myinfo" style={{ fontSize: "18px" }}>
+        <div className="myinfo" style={{ fontSize: "18px",padding:"10px" }}>
           Driven and passionate web developer with expertise in <br />
           <b style={{ color: "#fa5c0e" }}>Programming Languages</b>:  Python, JavaScript, HTML, CSS <br />
           <b style={{ color: "#fa5c0e" }}>Web Development</b>:React.js, Flask, Node.js, Express.js<br />
@@ -54,15 +52,17 @@ export default function Home({ navhide, startLoader }) {
 
         </div>
         <div className="all-logo" style={{ display: "flex", gap: "30px", height: "171px", justifyContent: "center" }}>
-          <Link to="https://github.com/skrijwan100" target='_blank'><img src={github} alt="" style={{ height: "45px", width: "45px", cursor: "pointer" }} /></Link>
-          <Link to="https://www.linkedin.com/in/sekh-rijwan-026740311/" target='_blank'><lord-icon
+          <Link to="https://github.com/skrijwan100" target='_blank'><div className='logo-hover' > <img src={github} alt="" style={{ height: "45px", width: "45px", cursor: "pointer" }} /></div></Link>
+          <Link to="https://www.linkedin.com/in/sekh-rijwan-026740311/" target='_blank'><div className='logo-hover' >
+            <lord-icon
             src="https://cdn.lordicon.com/qgebwute.json"
             trigger="loop"
             delay="2000"
             colors="primary:#ffffff,secondary:#ffffff"
-            style={{ width: "45px", height: "45px", cursor: "pointer" }}>
-          </lord-icon></Link>
-          <Link to="https://www.instagram.com/skrijwan100/" target='_blank'> <lord-icon
+            
+            style={{ width: "45px", height: "45px", cursor: "pointer",}}>
+          </lord-icon></div></Link>
+          <Link to="https://www.instagram.com/skrijwan100/" target='_blank'> <div className='logo-hover' > <lord-icon
             src="https://cdn.lordicon.com/ewswvzmw.json"
             trigger="loop"
             delay="2000"
@@ -70,8 +70,8 @@ export default function Home({ navhide, startLoader }) {
             state="hover-rotate"
             colors="primary:#ffffff,secondary:#ffffff"
             style={{ width: "45px", height: "45px", cursor: "pointer" }}>
-          </lord-icon></Link>
-          <Link to="https://www.facebook.com/" target='_blank'><lord-icon
+          </lord-icon></div></Link>
+          <Link to="https://www.facebook.com/" target='_blank'><div className='logo-hover' > <lord-icon
             src="https://cdn.lordicon.com/bfoumeno.json"
             trigger="loop"
             delay="2000"
@@ -79,7 +79,7 @@ export default function Home({ navhide, startLoader }) {
             state="hover-roll"
             colors="primary:#ffffff,secondary:#ffffff"
             style={{ width: "45px", height: "45px", cursor: "pointer" }}>
-          </lord-icon></Link>
+          </lord-icon></div></Link>
         </div>
 
       </div>

@@ -36,7 +36,7 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
     // }
     return (
         <>
-        <div style={{backgroundColor:"#222222"}}>
+        <div className='nav-showhide' style={{backgroundColor:"#222222"}}>
             <div className={`saidbar ${navhide===true?"hide":""}`}>
                 <img onClick={handleclose}  className="close" src={closepic} alt="" />
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
@@ -58,7 +58,7 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
         </div>
 
         <div>
-        <div style={{backgroundColor:"#222222"}} className={`newsidebar  ${navhide===true?"show":""} `}>
+        <div style={{backgroundColor:"#222222"}} className={`newsidebar  ${navhide===true?"show":""} nav-showhide`}>
                 <img onClick={showclick} className='manue'  style={{height:"25px",width:"25px", marginTop:"17px", cursor:"pointer"}} src={manue} alt="" />  
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
                 <img src={mypic} alt="" style={{width:"60px",height:"60px", borderRadius:"50%",cursor:"pointer"}} />

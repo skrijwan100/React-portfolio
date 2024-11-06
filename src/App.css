@@ -105,3 +105,12 @@
       background-color: #db510b;
     }
 }
+.logo-hover{
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    box-shadow: 1px 1px 19px 3px #fa5c0e;
+    background-color: #db510b;
+    border-radius: 8px;
+  }
+  
+}

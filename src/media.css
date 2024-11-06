@@ -9,4 +9,24 @@
     .all-logo{
             height: 50px !important;
     }
+
+}
+@media (max-width: 760px) {
+    .nav-showhide{
+        display: none;
+    }
+    .info{
+        margin-left: 10px !important;
+    }
+
+}
+@media (max-width: 424px) {
+    .mycard{
+        margin-left: 0px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
