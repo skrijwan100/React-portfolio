@@ -3,6 +3,10 @@
         flex-wrap: wrap;
     }
     .mycard{
-        margin-left: 300px;
+        margin-left: 300px
+
+    }
+    .all-logo{
+            height: 50px !important;
     }
 }

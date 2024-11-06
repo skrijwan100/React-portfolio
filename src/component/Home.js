@@ -1,9 +1,11 @@
 import React from 'react';
 import myImg from "../Asset/my__pic.png"
+import github from "../Asset/githublogo.png"
+import instagram from "../Asset/instagramlogo.png"
 import { TypeAnimation } from 'react-type-animation';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import Card from './Card'
-export default function Home({ navhide,startLoader }) {
+export default function Home({ navhide, startLoader }) {
   console.log(navhide)
   const naviget = useNavigate()
   const handleclick = (e) => {
@@ -51,9 +53,37 @@ export default function Home({ navhide,startLoader }) {
           <button className='btn-home'>Download CV</button>
 
         </div>
+        <div className="all-logo" style={{ display: "flex", gap: "30px", height: "171px", justifyContent: "center" }}>
+          <Link to="https://github.com/skrijwan100" target='_blank'><img src={github} alt="" style={{ height: "45px", width: "45px", cursor: "pointer" }} /></Link>
+          <Link to="https://www.linkedin.com/in/sekh-rijwan-026740311/" target='_blank'><lord-icon
+            src="https://cdn.lordicon.com/qgebwute.json"
+            trigger="loop"
+            delay="2000"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style={{ width: "45px", height: "45px", cursor: "pointer" }}>
+          </lord-icon></Link>
+          <Link to="https://www.instagram.com/skrijwan100/" target='_blank'> <lord-icon
+            src="https://cdn.lordicon.com/ewswvzmw.json"
+            trigger="loop"
+            delay="2000"
+            stroke="bold"
+            state="hover-rotate"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style={{ width: "45px", height: "45px", cursor: "pointer" }}>
+          </lord-icon></Link>
+          <Link to="https://www.facebook.com/" target='_blank'><lord-icon
+            src="https://cdn.lordicon.com/bfoumeno.json"
+            trigger="loop"
+            delay="2000"
+            stroke="bold"
+            state="hover-roll"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style={{ width: "45px", height: "45px", cursor: "pointer" }}>
+          </lord-icon></Link>
+        </div>
 
       </div>
-      <div className='mycard' style={{ marginTop: "80px", marginRight: "20px"}}>
+      <div className='mycard' style={{ marginTop: "80px", marginRight: "20px" }}>
 
         <Card />
       </div>
