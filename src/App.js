@@ -47,10 +47,10 @@ function App() {
 
     <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick}/> 
     <Routes>
-      <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick} />}/>
+      <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />}/>
       <Route path='/project' element={<Project/>}/>
       <Route path='/skill' element={<Skill/>}/>
-      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/contact' element={<Contact navhide={navhide}/>}/>
     </Routes>
       </div>
     </Router>
