@@ -13,11 +13,13 @@ import Contact from './component/Contact';
 import Loader from './component/Loder';
 import { useState } from 'react';
 import "./media.css"
+import Alert from './component/Alert';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [navhide,setnavhide]=useState(false)
   const [progress, setProgress] = useState(0);
+  const [alert,setalert]=useState(null)
   const handleclose=()=>{
     setnavhide(true)
   }
@@ -40,9 +42,13 @@ function App() {
       });
     }, 50);
   };
+  const showalert=(title)=>{
+    setalert({title:title})
+  }
   return (
     <Router>
       <Loader  isLoading={isLoading} progress={progress}/>
+      <Alert alert={alert}/>
       <div style={{display:'flex',backgroundColor:"#151515"}}>
 
     <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick}/> 
@@ -50,7 +56,7 @@ function App() {
       <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />}/>
       <Route path='/project' element={<Project/>}/>
       <Route path='/skill' element={<Skill/>}/>
-      <Route path='/contact' element={<Contact navhide={navhide}/>}/>
+      <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert}/>}/>
     </Routes>
       </div>
     </Router>

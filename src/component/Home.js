@@ -18,7 +18,7 @@ export default function Home({ navhide, startLoader }) {
 
     <div className="main" style={{ backgroundColor: "#151515", color: "white", paddingLeft: "20px", paddingTop: "10px", display: "flex" }}>
       <div className="info" style={{ marginLeft: navhide ? "88px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
-        <h1 style={{ color: "#fa5c0e", }}>Hello, I am <span id="name" style={{ fontFamily: "Alegreya Sans SC", fontSize: "45px", fontWeight: "700" }}>Sk Rijwan</span></h1>
+        <h1 style={{ color: "#fa5c0e",marginTop:"-7px " }}>Hello, I am <span id="name" style={{ fontFamily: "Alegreya Sans SC", fontSize: "45px", fontWeight: "700" }}>Sk Rijwan</span></h1>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
@@ -36,7 +36,7 @@ export default function Home({ navhide, startLoader }) {
           speed={50}
           repeat={Infinity} />
 
-        <div className="myinfo" style={{ fontSize: "18px",padding:"10px" }}>
+        <div className="myinfo" style={{ fontSize: "18px",paddingRight:"8px"}}>
           Driven and passionate web developer with expertise in <br />
           <b style={{ color: "#fa5c0e" }}>Programming Languages</b>:  Python, JavaScript, HTML, CSS <br />
           <b style={{ color: "#fa5c0e" }}>Web Development</b>:React.js, Flask, Node.js, Express.js<br />
@@ -51,7 +51,7 @@ export default function Home({ navhide, startLoader }) {
           <button className='btn-home'>Download CV</button>
 
         </div>
-        <div className="all-logo" style={{ display: "flex", gap: "30px", height: "171px", justifyContent: "center" }}>
+        <div className="all-logo" style={{ display: "flex", gap: "30px", height: "200px", justifyContent: "center" }}>
           <Link to="https://github.com/skrijwan100" target='_blank'><div className='logo-hover' > <img src={github} alt="" style={{ height: "45px", width: "45px", cursor: "pointer" }} /></div></Link>
           <Link to="https://www.linkedin.com/in/sekh-rijwan-026740311/" target='_blank'><div className='logo-hover' >
             <lord-icon
