@@ -14,17 +14,18 @@ import Loader from './component/Loder';
 import { useState } from 'react';
 import "./media.css"
 import Alert from './component/Alert';
+import Mobilenav from './component/Mobilenav';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
-  const [navhide,setnavhide]=useState(false)
+  const [navhide, setnavhide] = useState(false)
   const [progress, setProgress] = useState(0);
-  const [alert,setalert]=useState(null)
-  const handleclose=()=>{
+  const [alert, setalert] = useState(null)
+  const handleclose = () => {
     setnavhide(true)
   }
-  const showclick=()=>{
-      setnavhide(false)
+  const showclick = () => {
+    setnavhide(false)
 
   }
   const startLoader = () => {
@@ -42,22 +43,23 @@ function App() {
       });
     }, 50);
   };
-  const showalert=(title)=>{
-    setalert({title:title})
+  const showalert = (title) => {
+    setalert({ title: title })
   }
   return (
     <Router>
-      <Loader  isLoading={isLoading} progress={progress}/>
-      <Alert alert={alert}/>
-      <div style={{display:'flex',backgroundColor:"#151515"}}>
+      <Loader isLoading={isLoading} progress={progress} />
+      {/* <Mobilenav/> */}
+      <Alert alert={alert} />
+      <div style={{ display: 'flex', backgroundColor: "#151515" }}>
 
-    <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick}/> 
-    <Routes>
-      <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />}/>
-      <Route path='/project' element={<Project/>}/>
-      <Route path='/skill' element={<Skill/>}/>
-      <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert}/>}/>
-    </Routes>
+        <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick} />
+        <Routes>
+          <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/skill' element={<Skill />} />
+          <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert} />} />
+        </Routes>
       </div>
     </Router>
 

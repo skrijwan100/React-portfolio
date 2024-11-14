@@ -63,6 +63,7 @@ export default function Contact({ navhide, showalert }) {
                   rows="3"
                   className="input-field"
                   name='message'
+                  style={{resize:"none"}}
 
                 ></textarea>
               </div>

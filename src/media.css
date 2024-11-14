@@ -15,9 +15,12 @@
     .nav-showhide{
         display: none;
     }
+    .mobilenav-show-hide{
+        display: block;
+    }
     .info{
         margin-left: 10px !important;
-        margin-top: 70px;
+        margin-top: 16px;
     }
     .main-box{
         margin-left: 10px !important;

@@ -99,3 +99,15 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid transparent;
   background-clip: content-box;
 }
+
+/* sweet alert  */
+.swal2-popup {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+.swal2-title {
+  color: #ffffff !important;
+}
+.swal2-icon {
+  color: #ffffff !important;
+}

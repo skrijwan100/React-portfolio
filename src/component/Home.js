@@ -17,7 +17,7 @@ export default function Home({ navhide, startLoader }) {
   return (
 
     <div className="main" style={{ backgroundColor: "#151515", color: "white", paddingLeft: "20px", paddingTop: "10px", display: "flex" }}>
-      <div className="info" style={{ marginLeft: navhide ? "88px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
+      <div className="info" style={{ marginLeft: navhide ? "80px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
         <h1 style={{ color: "#fa5c0e",marginTop:"-7px " }}>Hello, I am <span id="name" style={{ fontFamily: "Alegreya Sans SC", fontSize: "45px", fontWeight: "700" }}>Sk Rijwan</span></h1>
         <TypeAnimation
           sequence={[
