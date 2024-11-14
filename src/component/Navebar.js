@@ -21,19 +21,7 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
         startLoader()
     }
 
-    // const handleclose=()=>{
-    //   setnavhide(true)
-    // }
-    // const showclick=()=>{
-    //     setnavhide(false)
-
-    // }
-    // const imgclick=(e)=>{
-    //     e.preventDefault();
-    //     setcard(true)
-
-
-    // }
+ 
     return (
         <>
         <div className='nav-showhide' style={{backgroundColor:"#222222"}}>
@@ -42,16 +30,16 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
                 <div className="Manue" style={{ display: "flex",flexDirection:"column" }}>
                     <img  src={mypic} alt="" style={{width:"100px",height:"100px", borderRadius:"50%",cursor:"pointer"}} />
                     <ul>
-                        <Link onClick={loctaion.pathname==="/"?null:handleclick} to="/" className={`${loctaion.pathname === "/" ? "active" : "dactive"}`} > <div style={{display:"flex"}}> <img className='mx-2' src={loctaion.pathname==="/"?homecolor:home}  alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /> <li  style={{ cursor: "pointer" }} className="home">Home</li></div></Link>
+                        <Link onClick={loctaion.pathname==="/"?null:handleclick} to="/" className={`${loctaion.pathname === "/" ? "active" : "dactive"}`} > <div style={{display:"flex"}}> <img className='mx-2' src={loctaion.pathname==="/"?homecolor:home}  alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /> <li  style={{ cursor: "pointer" }} className="home">Home</li></div></Link>
 
 
-                        <Link onClick={loctaion.pathname==="/project"?null:handleclick} to="/project" className={`${loctaion.pathname === "/project" ? "active" : "dactive"}`}> <div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/project"?projrctcolor:project}alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /> <li  style={{ cursor: "pointer" }} className="home">Project</li></div></Link>
+                        <Link onClick={loctaion.pathname==="/project"?null:handleclick} to="/project" className={`${loctaion.pathname === "/project" ? "active" : "dactive"}`}> <div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/project"?projrctcolor:project}alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /> <li  style={{ cursor: "pointer" }} className="home">Project</li></div></Link>
 
 
-                        <Link onClick={loctaion.pathname==="/skill"?null:handleclick} to="/skill" className={`${loctaion.pathname === "/skill" ? "active" : "dactive"}`}><div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/skill"?skillcolor:skill}alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /> <li  style={{ cursor: "pointer" }} className="home">Skills</li></div></Link>
+                        <Link onClick={loctaion.pathname==="/skill"?null:handleclick} to="/skill" className={`${loctaion.pathname === "/skill" ? "active" : "dactive"}`}><div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/skill"?skillcolor:skill}alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /> <li  style={{ cursor: "pointer" }} className="home">Skills</li></div></Link>
 
 
-                        <Link onClick={loctaion.pathname==="/contact"?null:handleclick} to="/contact" className={`${loctaion.pathname === "/contact" ? "active" : "dactive"}`}> <div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/contact"?conatc:conatccolor}alt="" style={{width:"25px",height:"25px",marginTop:"50px"}} /><li  style={{ cursor: "pointer" }} className="home">contact me</li></div></Link>
+                        <Link onClick={loctaion.pathname==="/contact"?null:handleclick} to="/contact" className={`${loctaion.pathname === "/contact" ? "active" : "dactive"}`}> <div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/contact"?conatc:conatccolor}alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /><li  style={{ cursor: "pointer" }} className="home">contact me</li></div></Link>
                     </ul>
                 </div>
             </div>

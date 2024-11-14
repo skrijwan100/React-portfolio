@@ -49,9 +49,12 @@ function App() {
   return (
     <Router>
       <Loader isLoading={isLoading} progress={progress} />
-      {/* <Mobilenav/> */}
       <Alert alert={alert} />
-      <div style={{ display: 'flex', backgroundColor: "#151515" }}>
+      <div style={{position:"fixed"}}>
+
+      <Mobilenav/>
+      </div>
+      <div style={{ display: 'flex', backgroundColor: "#151515"}}>
 
         <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick} />
         <Routes>
