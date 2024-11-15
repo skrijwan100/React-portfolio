@@ -16,7 +16,7 @@
         display: none;
     }
     .mobilenav-show-hide{
-        display: block;
+        display: flex !important;
     }
     .info{
         margin-left: 10px !important;

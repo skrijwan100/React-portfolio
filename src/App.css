@@ -292,3 +292,12 @@
     height: 40px;
   }
 }
+
+.hide-nav{
+  transition:transform 0.4s ease-in-out ;
+  transform: translateX(290px);
+}
+.show-nav{
+  transition:transform 0.4s ease-in-out ;
+  transform: translateX(-0px) !important;
+}

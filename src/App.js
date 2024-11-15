@@ -50,9 +50,9 @@ function App() {
     <Router>
       <Loader isLoading={isLoading} progress={progress} />
       <Alert alert={alert} />
-      <div style={{position:"fixed"}}>
+      <div className='mobilenav-show-hide' style={{position:"fixed",display:"none"}}>
 
-      <Mobilenav/>
+      <Mobilenav startLoader={startLoader}/>
       </div>
       <div style={{ display: 'flex', backgroundColor: "#151515"}}>
 
