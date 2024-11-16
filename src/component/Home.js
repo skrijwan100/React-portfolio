@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { useNavigate, Link } from 'react-router-dom';
 import Card from './Card'
 export default function Home({ navhide, startLoader }) {
-  console.log(navhide)
+  // console.log(navhide)
   const naviget = useNavigate()
   const handleclick = (e) => {
     e.preventDefault();

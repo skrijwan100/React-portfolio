@@ -60,7 +60,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />} />
           <Route path='/project' element={<Project />} />
-          <Route path='/skill' element={<Skill />} />
+          <Route path='/skill' element={<Skill navhide={navhide}/>} />
           <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert} />} />
         </Routes>
       </div>

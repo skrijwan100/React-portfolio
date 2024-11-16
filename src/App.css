@@ -301,3 +301,18 @@
   transition:transform 0.4s ease-in-out ;
   transform: translateX(-0px) !important;
 }
+
+/* skill css */
+.skill-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #ccd6f6;
+  border-radius: 15px;
+  transition: transform 0.5s ease-in-out;
+  &:hover{
+    transform: scale(1.09);
+  }
+}
