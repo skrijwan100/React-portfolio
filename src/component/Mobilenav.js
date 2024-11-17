@@ -36,7 +36,7 @@ export default function Mobilenav({startLoader}) {
    <div className={`${nav?'show-nav':'hide-nav'}`}  style={{position:"fixed",top:"8px",display:"flex",justifyContent:"flex-end",width:"100vw",transform: "translateX(284px)"}}>
     <div className="nav-box"style={{width:"280px",height:"300px",marginRight:loctaion.pathname==="/"?"-36px":"0px",backgroundColor:"black",color:"white",display:"flex"}}>
     <img onClick={handleclick} src={closebtn} alt="" style={{height:"40px",width:"40px",fontSize:"25px"}} />
-      <ul style={{listStyle:"none",gap:"30px",display:"flex",flexDirection:"column",justifyContent:"center",}}>
+      <ul style={{listStyle:"none",gap:"30px",fontSize:"28px",display:"flex",flexDirection:"column",justifyContent:"center",}}>
         <Link onClick={handlelink}  style={{textDecoration:"none",color:loctaion.pathname==="/"?"#fa5c0e":"white"}} to="/"><li >Home</li></Link>
         <Link onClick={handlelink}  style={{textDecoration:"none",color:loctaion.pathname==="/project"?"#fa5c0e":"white"}} to="/project"><li>Project</li></Link>
         <Link onClick={handlelink}  style={{textDecoration:"none",color:loctaion.pathname==="/skill"?"#fa5c0e":"white"}} to="/skill"><li>Skill</li></Link>

@@ -26,6 +26,13 @@
         margin-left: 10px !important;
 
     }
+    .main-project-box{
+        margin-left: 0px !important;
+
+    }
+    .vedio{
+        width: 90vw !important;
+    }
 
 }
 @media (max-width: 424px) {
