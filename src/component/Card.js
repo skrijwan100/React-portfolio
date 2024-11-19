@@ -39,9 +39,6 @@ export default function Card() {
           {/* <div style={{fontSize:"20px",fontWeight:"600",padding:"24px",color:"linen"}}>FULL STACK WEB DEVOLOPER</div> */}
           <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed out once, initially
-            'FULL STACK DEVELOPER',
-            1500, // wait 1s before replacing "Mice" with "Hamsters"
             'MERN STACK DEVELOPER',
             1500,
             'REACT DEVELOPER',

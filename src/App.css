@@ -308,13 +308,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   cursor: pointer;
   background-color: #ccd6f6;
   border-radius: 15px;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px -1px 17px 0px #fa5c0e;
   &:hover{
-    transform: scale(1.09);
+    transform: skew(8deg);
   }
 }
 
