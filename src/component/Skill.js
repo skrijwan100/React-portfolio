@@ -20,7 +20,7 @@ export default function Skill({ navhide }) {
   return (
     <div style={{ width: "100vw", backgroundColor: "#151515" }}>
       <div className="main-box" style={{ marginLeft: navhide ? "80px" : "225px", transition: "margin-left 0.4s ease-in-out",display:"flex",flexDirection:"column",marginTop:"100px"}}>
-        <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"space-around",gap:"10px",flexWrap:"wrap"}}>
+        <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "180px", width: "180px"}}>
             <img style={{height:"170px",width:"170px"}} src={mongodb} alt="" />
 
@@ -38,7 +38,7 @@ export default function Skill({ navhide }) {
 
           </div>
         </div>
-        <div className="row-2" style={{display:"flex",alignItems:"center",justifyContent:"space-around",gap:"10px",flexWrap:"wrap"}}>
+        <div className="row-2" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "180px", width: "180px" }}>
             <img style={{height:"170px",width:"170px"}} src={html} alt="" />
 
@@ -57,7 +57,7 @@ export default function Skill({ navhide }) {
           </div>
 
         </div>
-        <div className="row-3" style={{display:"flex",alignItems:"center",justifyContent:"space-around",gap:"10px",flexWrap:"wrap"}}>
+        <div className="row-3" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "180px", width: "180px" }}>
             <img style={{height:"170px",width:"170px",objectFit:"contain"}} src={bootstrap} alt="" />
 
@@ -76,7 +76,7 @@ export default function Skill({ navhide }) {
           </div>
 
         </div>
-        <div className="row-4" style={{display:"flex",alignItems:"center",justifyContent:"space-around",gap:"10px",flexWrap:"wrap"}}>
+        <div className="row-4" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "180px", width: "180px" }}>
             <img style={{height:"170px",width:"170px"}} src={python} alt="" />
 
