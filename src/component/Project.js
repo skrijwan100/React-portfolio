@@ -14,7 +14,10 @@ import flask from "../Asset/skill/flask.svg"
 import bootstrap from "../Asset/skill/bootstrao.png"
 import madrasavedio from "../Asset/ssorvedio/madrasavedio.mp4"
 import hackthon from "../Asset/ssorvedio/hackatho.mp4"
-
+import lifeline from "../Asset/ssorvedio/LIFE_line_vedio.mp4"
+import textutils from "../Asset/ssorvedio/Text_utilites.mp4"
+import passwordmanger from "../Asset/ssorvedio/Password.mp4"
+import tictactoe from "../Asset/ssorvedio/TIC_TAC_TOE.mp4"
 
 export default function Project({ navhide }) {
   return (
@@ -24,8 +27,10 @@ export default function Project({ navhide }) {
         <div className="project-box">
           <div className="title-box">Medicin shop and Doctor appointment (MERN)</div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
-            <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid red" }}>
-              {/* <video src=""></video> */}
+            <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid red",display:"flex",alignItems:"center", justifyContent:"center" }}>
+              <video controls style={{ height: "350px", width: "57vw" }}>
+                <source src={lifeline} type="video/webm"  />
+              </video>
             </div>
           </div>
           <div className="about-box">
@@ -351,7 +356,9 @@ export default function Project({ navhide }) {
           <div className="title-box">Textutils (React) </div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
             <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid red" }}>
-              {/* <video src=""></video> */}
+            <video controls style={{ height: "340px", width: "57vw" }}>
+                <source src={textutils} type="video/webm"  />
+              </video>
             </div>
           </div>
           <div className="about-box">
@@ -596,7 +603,10 @@ export default function Project({ navhide }) {
           <div className="title-box"> Password-manager(Flask) </div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
             <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid red" }}>
-              {/* <video src=""></video> */}
+            <video controls style={{ height: "340px", width: "57vw" }}>
+                <source src={passwordmanger} type="video/webm"  />
+              </video>
+           
             </div>
           </div>
           <div className="about-box">
@@ -836,7 +846,9 @@ export default function Project({ navhide }) {
           <div className="title-box">Tic-Tac-Toe Game</div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
             <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid red" }}>
-              {/* <video src=""></video> */}
+            <video controls style={{ height: "340px", width: "57vw" }}>
+                <source src={tictactoe} type="video/webm"  />
+              </video>
             </div>
           </div>
           <div className="about-box">
