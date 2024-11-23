@@ -7,13 +7,18 @@ export default function Mobilenav({startLoader}) {
   const loctaion =useLocation()
   const [nav,setnav]=useState(false)
   // const [shownav,setshownav]=useState(false)
-  const handlelink=(e)=>{
+  const handlelink=()=>{
     startLoader()
     setnav(false)
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+  })
   }
   const handleclick=(e)=>{
-    e.preventDefault()
+    e.preventDefault();
     setnav(false)
+;
   }
   const handleshow=(e)=>{
     e.preventDefault()
@@ -26,9 +31,7 @@ export default function Mobilenav({startLoader}) {
       <div className="myimg" style={{marginLeft:"27px",marginTop:"15px"}}>
         <img  src={manue} onClick={handleshow} alt="sk rijwan" style={{height:"50px",width:"50px",backgroundColor:"#151515",marginRight:loctaion.pathname==="/"?"-36px":"0px",display:nav?"none":"block"}} />
       </div>
-      <div onClick={handleshow} className="hambargar" style={{marginTop:"15px",backgroundColor:"#151515"}}> 
-       {/* <div onClick={handleshow}> hii</div>
-       <button onClick={handleshow}>hii</button> */}
+      <div onClick={handleshow} className="hambargar" style={{marginTop:"15px",backgroundColor:"#151515",marginRight:"10px"}}> 
        <img onClick={handleshow} src={myimg} alt="sk rijwan" style={{height:"50px",width:"50px",borderRadius:"50%",backgroundColor:"#151515",marginRight:loctaion.pathname==="/"?"-36px":"0px"}} />
        
       </div>

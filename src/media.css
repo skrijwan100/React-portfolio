@@ -33,6 +33,13 @@
     .vedio{
         width: 90vw !important;
     }
+    .vedio-src-box{
+        width: 90vw !important;
+    }
+    .vedio{
+        border: none !important;
+    }
+    
 
 }
 @media (max-width: 424px) {

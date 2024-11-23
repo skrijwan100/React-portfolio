@@ -19,6 +19,10 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
     const loctaion = useLocation()
     const handleclick=()=>{
         startLoader()
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
 
  
