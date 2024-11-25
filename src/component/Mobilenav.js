@@ -24,7 +24,6 @@ export default function Mobilenav({startLoader}) {
     e.preventDefault()
     setnav(true)
     // setshownav(true)
-
   }
   return (<>
     <div className="mobilenav-show-hide" style={{backgroundColor:"#151515",color:"white",display:"flex",justifyContent:"space-between",width:"100vw"}}>

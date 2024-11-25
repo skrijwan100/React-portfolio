@@ -21,76 +21,76 @@ export default function Skill({ navhide }) {
     <div style={{ width: "100vw", backgroundColor: "#151515" }}>
       <div className="main-box" style={{ marginLeft: navhide ? "80px" : "225px", transition: "margin-left 0.4s ease-in-out",display:"flex",flexDirection:"column",marginTop:"100px"}}>
         <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
-          <div className="skill-box" style={{ height: "180px", width: "180px"}}>
-            <img style={{height:"170px",width:"170px"}} src={mongodb} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px"}}>
+            <img style={{height:"150px",width:"150px"}} src={mongodb} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={expressjs} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={expressjs} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={react} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={react} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={nodejs} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={nodejs} alt="" />
 
           </div>
         </div>
         <div className="row-2" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={html} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={html} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px",objectFit:"cover"}} src={css} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px",objectFit:"cover"}} src={css} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={js} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={js} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px",objectFit:"contain"}} src={tailwind} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px",objectFit:"contain"}} src={tailwind} alt="" />
 
           </div>
 
         </div>
         <div className="row-3" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px",objectFit:"contain"}} src={bootstrap} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px",objectFit:"contain"}} src={bootstrap} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={github} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={github} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={git} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={git} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={thander} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={thander} alt="" />
 
           </div>
 
         </div>
         <div className="row-4" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={python} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={python} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={flask} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={flask} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={mysql} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={mysql} alt="" />
 
           </div>
-          <div className="skill-box" style={{ height: "180px", width: "180px" }}>
-            <img style={{height:"170px",width:"170px"}} src={c} alt="" />
+          <div className="skill-box" style={{ height: "160px", width: "160px" }}>
+            <img style={{height:"150px",width:"150px"}} src={c} alt="" />
 
           </div>
 
