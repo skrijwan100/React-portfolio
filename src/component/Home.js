@@ -3,6 +3,7 @@ import github from "../Asset/githublogo.png"
 import { TypeAnimation } from 'react-type-animation';
 import { useNavigate, Link } from 'react-router-dom';
 import Card from './Card'
+import resume from "../Asset/Resume.pdf"
 export default function Home({ navhide, startLoader }) {
   // console.log(navhide)
   const naviget = useNavigate()
@@ -48,7 +49,7 @@ export default function Home({ navhide, startLoader }) {
         </div>
         <div className="btn-box" style={{ margin: "30px 0px", display: "flex", gap: "50px", alignItems: "center", justifyContent: "center" }}>
           <button onClick={handleclick} className='btn-home'>More about me</button>
-          <button className='btn-home'>Download CV</button>
+          <a href={resume} download={resume}><button className='btn-home'>Download CV</button></a>
 
         </div>
         <div className="all-logo" style={{ display: "flex", gap: "30px", height: "200px", justifyContent: "center" }}>
