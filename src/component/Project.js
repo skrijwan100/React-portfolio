@@ -72,7 +72,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/medicine-backend-Express-Mongodb-Nodejs-" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/medicine-backend-Express-Mongodb-Nodejs-" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/notebook-MERN-" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/notebook-MERN-"  target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://notebook-mern-pi8g.vercel.app/login" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://notebook-mern-pi8g.vercel.app/login" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/RUPSONA-IQRA-MADRASA-MISSON-web" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/RUPSONA-IQRA-MADRASA-MISSON-web" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +257,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://rupsonaiqramadrasamission.in/" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://rupsonaiqramadrasamission.in/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -319,7 +319,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/-BWU-Hackathon-Project-" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/-BWU-Hackathon-Project-" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -338,8 +338,8 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://bw-hackathon-undefined.netlify.app/" style={{ textDecoration: "none" }}><button className='code-btn'>
-                  <span>Depoly Link</span>
+                <Link   to="https://bw-hackathon-undefined.netlify.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                  <span>Depoly Link</span> 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -400,7 +400,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/textutils-react-webapp" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/textutils-react-webapp" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -419,7 +419,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://66b7895d18f5a5541487ccff--text-utiles-rijwan.netlify.app/" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://66b7895d18f5a5541487ccff--text-utiles-rijwan.netlify.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -485,7 +485,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/Todo-web-app" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/Todo-web-app" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -504,7 +504,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="" style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -570,7 +570,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/Pahari-Home-Solutions-Web-Development-Internship-2024" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/Pahari-Home-Solutions-Web-Development-Internship-2024" target='_blank'  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -589,7 +589,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://github.com/skrijwan100/Pahari-Home-Solutions-Web-Development-Internship-2024" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/Pahari-Home-Solutions-Web-Development-Internship-2024" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -657,7 +657,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/Password-manager" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/Password-manager" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -676,7 +676,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://password-manager-pc9s.onrender.com/" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://password-manager-pc9s.onrender.com/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -742,7 +742,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/LoginPortal" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/LoginPortal"  style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -761,7 +761,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="" style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -818,7 +818,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/Music-app-phone-" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/Music-app-phone-" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -837,7 +837,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://66989b88a2affa3a6a049a02--musicsappbyrijwan.netlify.app/" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://66989b88a2affa3a6a049a02--musicsappbyrijwan.netlify.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -894,7 +894,7 @@ export default function Project({ navhide }) {
             </div>
             <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
               <div className="github-link">
-                <Link to="https://github.com/skrijwan100/TIC-TAC-TOE-game" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://github.com/skrijwan100/TIC-TAC-TOE-game" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Soures code</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -913,7 +913,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="depoly-link">
-                <Link to="https://669aab2c9dd1e08803104a80--tic-tac-toe-by-rijwan.netlify.app/" style={{ textDecoration: "none" }}><button className='code-btn'>
+                <Link   to="https://669aab2c9dd1e08803104a80--tic-tac-toe-by-rijwan.netlify.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
                   <span>Depoly Link</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
