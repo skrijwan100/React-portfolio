@@ -25,7 +25,7 @@ export default function Home({ navhide, startLoader }) {
             // Same substring at the start will only be typed out once, initially
             'I am a Web Developer',
             1500, // wait 1s before replacing "Mice" with "Hamsters"
-            'I am a MERN Stack Developer',
+            'I am a MERN  Developer',
             1500,
             'I am a React Developer',
             1500,
