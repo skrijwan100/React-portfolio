@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import myimg from '../Asset/my__pic.png'
+import myimg from '../Asset/skrijwan.jpeg'
 import manue from "../Asset/menu.png"
 import closebtn from "../Asset/close.png"
 import { useLocation,Link } from 'react-router-dom'

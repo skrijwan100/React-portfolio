@@ -1,6 +1,6 @@
 import React from 'react'
 import "./cardcss.css"
-import mypic from "../Asset/my__pic.png"
+import mypic from "../Asset/skrijwan.jpeg"
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Card() {

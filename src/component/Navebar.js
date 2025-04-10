@@ -2,7 +2,7 @@ import React from 'react'
 import closepic from "../Asset/close.png"
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import mypic from "../Asset/my__pic.png"
+import mypic from "../Asset/skrijwan.jpeg"
 import home from"../Asset/home.svg"
 import homecolor from"../Asset/homecolor.svg"
 import skill from"../Asset/skill.svg"

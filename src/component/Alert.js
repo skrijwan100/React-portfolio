@@ -11,7 +11,7 @@ export default function Alert(props) {
                     text: "I will responce you soon!",
                     icon: "success",
                 });
-
+   
             }
         }, [props.alert])
 
