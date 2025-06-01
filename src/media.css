@@ -17,6 +17,7 @@
     }
     .mobilenav-show-hide{
         display: flex !important;
+        z-index: 10;
     }
     .info{
         margin-left: 10px !important;

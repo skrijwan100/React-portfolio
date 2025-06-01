@@ -26,7 +26,7 @@ import noteboox from "../Asset/ssorvedio/notebook.png"
 
 export default function Project({ navhide }) {
   return (
-    <div style={{ width: "100vw", backgroundColor: "#151515", paddingLeft: "20px", paddingTop: "10px", color: "white" }}>
+    <div style={{ width: "100vw", backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
       <div className="main-project-box" style={{ marginLeft: navhide ? "80px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
 
         <div className="project-box">

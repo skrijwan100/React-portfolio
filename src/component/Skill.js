@@ -19,8 +19,8 @@ import c from "../Asset/skill/c.png"
 export default function Skill({ navhide }) {
   return (
     <div style={{ width: "100vw", backgroundColor: "#151515" }}>
-      <div className="main-box" style={{ marginLeft: navhide ? "80px" : "225px", transition: "margin-left 0.4s ease-in-out",display:"flex",flexDirection:"column",marginTop:"100px"}}>
-        <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
+      <div className="main-box" style={{ marginLeft: navhide ? "80px" : "225px", transition: "margin-left 0.4s ease-in-out",display:"flex",flexDirection:"column"}}>
+        <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap",marginTop:"85px"}}>
           <div className="skill-box" style={{ height: "160px", width: "160px"}}>
             <img style={{height:"150px",width:"150px"}} src={mongodb} alt="" />
 
