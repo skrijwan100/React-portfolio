@@ -1,96 +1,86 @@
 import React from 'react'
-import mongodb from "../Asset/skill/mongo-db.png"
-import expressjs from "../Asset/skill/expressjs.png"
-import react from "../Asset/skill/react.svg"
-import nodejs from "../Asset/skill/nodejs.png"
-import html from "../Asset/skill/HTML5.png"
-import css from "../Asset/skill/css.png"
-import js from "../Asset/skill/JavaScript-logo.png"
-import github from "../Asset/skill/Octicons-mark-github.svg"
-import tailwind from "../Asset/skill/tailwind.png"
-import bootstrap from "../Asset/skill/bootstrao.png"
-import git from "../Asset/skill/git.webp"
-import thander from "../Asset/skill/thender-client.png"
-import python from "../Asset/skill/python.jpeg"
-import flask from "../Asset/skill/flask.svg"
-import mysql from "../Asset/skill/mysql-logo.svg"
-import c from "../Asset/skill/c.png"
-
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiMongodb,SiExpress,SiFlask ,SiMysql  } from "react-icons/si";
+import { FaNodeJs,FaCss3Alt,FaBootstrap ,FaGitAlt   } from "react-icons/fa";
+import { FaReact ,FaHtml5 ,FaPython  } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { DiGithubBadge } from "react-icons/di";
+import { AiOutlineThunderbolt } from "react-icons/ai";
 export default function Skill({ navhide }) {
   return (
     <div style={{ width: "100vw", backgroundColor: "#151515" }}>
       <div className="main-box" style={{ marginLeft: navhide ? "80px" : "225px", transition: "margin-left 0.4s ease-in-out",display:"flex",flexDirection:"column"}}>
         <div className="row-1" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap",marginTop:"85px"}}>
           <div className="skill-box" style={{ height: "160px", width: "160px"}}>
-            <img style={{height:"150px",width:"150px"}} src={mongodb} alt="" />
+            <SiMongodb style={{height:"150px",width:"150px"}}/>
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={expressjs} alt="" />
+            <SiExpress style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={react} alt="" />
+            <FaReact style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={nodejs} alt="" />
+            <FaNodeJs style={{height:"150px",width:"150px"}} />
 
           </div>
         </div>
         <div className="row-2" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={html} alt="" />
+            <FaHtml5 style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px",objectFit:"cover"}} src={css} alt="" />
+            <FaCss3Alt  style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={js} alt="" />
+            <IoLogoJavascript style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px",objectFit:"contain"}} src={tailwind} alt="" />
+            <RiTailwindCssFill style={{height:"150px",width:"150px"}} />
 
           </div>
 
         </div>
         <div className="row-3" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px",objectFit:"contain"}} src={bootstrap} alt="" />
+            <FaBootstrap style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={github} alt="" />
+            <DiGithubBadge  style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={git} alt="" />
+            <FaGitAlt  style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={thander} alt="" />
-
+            <AiOutlineThunderbolt style={{height:"150px",width:"150px"}} />
           </div>
 
         </div>
         <div className="row-4" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"2rem",flexWrap:"wrap"}}>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={python} alt="" />
+            <FaPython style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={flask} alt="" />
+            <SiFlask style={{height:"150px",width:"150px"}} />
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={mysql} alt="" />
+            <SiMysql style={{height:"150px",width:"150px"}}/>
 
           </div>
           <div className="skill-box" style={{ height: "160px", width: "160px" }}>
-            <img style={{height:"150px",width:"150px"}} src={c} alt="" />
+           <svg style={{height:"150px",width:"150px"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M329.1 142.9c-62.5-62.5-155.8-62.5-218.3 0s-62.5 163.8 0 226.3s155.8 62.5 218.3 0c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3c-87.5 87.5-221.3 87.5-308.8 0s-87.5-229.3 0-316.8s221.3-87.5 308.8 0c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"/></svg>
+            {/* <img  src={c} alt="" /> */}
 
           </div>
 

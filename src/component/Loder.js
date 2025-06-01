@@ -5,7 +5,7 @@ const Loader = ({ isLoading, progress }) => {
     backgroundColor: '#fa5c0e', // Change as desired
     width: `${progress}%`,
     height: '3px',
-    // transition: 'width 0.3s ease-in-out',
+    transition: 'width 0.05s ease-in-out',
     position: 'fixed',
     top: 0,
     left: 0,
