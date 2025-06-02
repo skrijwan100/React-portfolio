@@ -23,7 +23,7 @@ import login from "../Asset/ssorvedio/Login_form.mp4"
 import pahari from "../Asset/ssorvedio/PAHARI_HOME.mp4"
 import playmusic from "../Asset/ssorvedio/PLAY_MUSIC.mp4"
 import noteboox from "../Asset/ssorvedio/notebook.png"
-
+import { FaReact ,FaHtml5 ,FaPython  } from "react-icons/fa6";
 export default function Project({ navhide }) {
   return (
     <div style={{ width: "100vw", backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
@@ -49,8 +49,7 @@ export default function Project({ navhide }) {
                 <img className='img-hover' src={expressjs} alt="" style={{ height: "55px", width: "55px" }} />
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={react} alt="" style={{ height: "55px", width: "55px" }} />
+                                <FaReact style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
 
               <div className="img-box">
@@ -135,7 +134,7 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={react} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaReact style={{ height: "55px", width: "55px" ,color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -224,7 +223,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={react} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaReact style={{ height: "55px", width: "55px" ,color:"black" }}/>
               </div>
               <div className="img-box">
 
@@ -305,7 +304,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={react} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaReact style={{ height: "55px", width: "55px" ,color:"black" }}/>
               </div>
               <div className="img-box">
 
@@ -386,7 +385,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={react} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaReact style={{ height: "55px", width: "55px" ,color:"black" }}/>
               </div>
               <div className="img-box">
 
