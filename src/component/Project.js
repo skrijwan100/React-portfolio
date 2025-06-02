@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import mongodb from "../Asset/skill/mongo-db.png"
 import expressjs from "../Asset/skill/expressjs.png"
-import react from "../Asset/skill/react.svg"
 import nodejs from "../Asset/skill/nodejs.png"
 import github from "../Asset/skill/Octicons-mark-github.svg"
 import thander from "../Asset/skill/thender-client.png"
