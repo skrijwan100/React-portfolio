@@ -5,10 +5,8 @@ import expressjs from "../Asset/skill/expressjs.png"
 import nodejs from "../Asset/skill/nodejs.png"
 import github from "../Asset/skill/Octicons-mark-github.svg"
 import thander from "../Asset/skill/thender-client.png"
-import html from "../Asset/skill/HTML5.png"
 import css from "../Asset/skill/css.png"
 import js from "../Asset/skill/JavaScript-logo.png"
-import python from "../Asset/skill/python.jpeg"
 import flask from "../Asset/skill/flask.svg"
 import bootstrap from "../Asset/skill/bootstrao.png"
 import madrasavedio from "../Asset/ssorvedio/madrasavedio.mp4"
@@ -48,7 +46,7 @@ export default function Project({ navhide }) {
                 <img className='img-hover' src={expressjs} alt="" style={{ height: "55px", width: "55px" }} />
               </div>
               <div className="img-box">
-                                <FaReact style={{ height: "55px", width: "55px" ,color:"black"}}/>
+                    <FaReact style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
 
               <div className="img-box">
@@ -208,8 +206,7 @@ export default function Project({ navhide }) {
           <div className="about-box">
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
-
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -290,7 +287,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black",cursor:"pointer" }} />
               </div>
               <div className="img-box">
 
@@ -371,7 +368,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -452,7 +449,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -464,8 +461,8 @@ export default function Project({ navhide }) {
               </div>
 
               <div className="img-box">
-
-                <img className='img-hover' src={python} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaPython style={{ height: "55px", width: "55px" ,color:"black"}}/>
+                
               </div>
               <div className="img-box">
 
@@ -537,7 +534,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -550,7 +547,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={python} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaPython style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
@@ -624,7 +621,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -637,7 +634,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={python} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaPython style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
@@ -709,7 +706,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -722,7 +719,7 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={python} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaPython style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
@@ -794,7 +791,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -870,7 +867,7 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={html} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
