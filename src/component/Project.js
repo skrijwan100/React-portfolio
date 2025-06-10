@@ -207,7 +207,6 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
                 <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
-                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
