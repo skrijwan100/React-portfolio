@@ -1,14 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import mongodb from "../Asset/skill/mongo-db.png"
-import expressjs from "../Asset/skill/expressjs.png"
-import nodejs from "../Asset/skill/nodejs.png"
-import github from "../Asset/skill/Octicons-mark-github.svg"
-import thander from "../Asset/skill/thender-client.png"
-import css from "../Asset/skill/css.png"
-import js from "../Asset/skill/JavaScript-logo.png"
-import flask from "../Asset/skill/flask.svg"
-import bootstrap from "../Asset/skill/bootstrao.png"
 import madrasavedio from "../Asset/ssorvedio/madrasavedio.mp4"
 import hackthon from "../Asset/ssorvedio/hackatho.mp4"
 import lifeline from "../Asset/ssorvedio/LIFE_line_vedio.mp4"
@@ -21,9 +12,13 @@ import pahari from "../Asset/ssorvedio/PAHARI_HOME.mp4"
 import playmusic from "../Asset/ssorvedio/PLAY_MUSIC.mp4"
 import noteboox from "../Asset/ssorvedio/notebook.png"
 import { FaReact ,FaHtml5 ,FaPython  } from "react-icons/fa6";
+import { FaNodeJs,FaCss3Alt,FaBootstrap ,FaGitAlt   } from "react-icons/fa";
+import { SiMongodb,SiExpress,SiFlask  } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
+import { AiOutlineThunderbolt } from "react-icons/ai";
 export default function Project({ navhide }) {
   return (
-    <div style={{ width: "100vw", backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
+    <div style={{ backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
       <div className="main-project-box" style={{ marginLeft: navhide ? "80px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
 
         <div className="project-box">
@@ -38,28 +33,26 @@ export default function Project({ navhide }) {
           <div className="about-box">
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
-
-                <img className='img-hover' src={mongodb} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiMongodb style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={expressjs} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiExpress style={{ height: "55px", width: "55px",color:"black" }} />
+                
               </div>
               <div className="img-box">
                     <FaReact style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
 
               <div className="img-box">
-
-                <img className='img-hover' src={nodejs} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaNodeJs style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={github} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaGitAlt style={{ height: "55px", width: "55px",color:"black" }} />
+                
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={thander} alt="" style={{ height: "55px", width: "55px" }} />
+                <AiOutlineThunderbolt style={{ height: "55px", width: "55px",color:"black" }}/> 
+                
               </div>
 
 
@@ -123,11 +116,11 @@ export default function Project({ navhide }) {
             <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
               <div className="img-box">
 
-                <img className='img-hover' src={mongodb} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiMongodb style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={expressjs} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiExpress style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
@@ -136,15 +129,15 @@ export default function Project({ navhide }) {
 
               <div className="img-box">
 
-                <img className='img-hover' src={nodejs} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaNodeJs style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={github} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaGitAlt style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={thander} alt="" style={{ height: "55px", width: "55px" }} />
+                <AiOutlineThunderbolt style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
 
@@ -209,12 +202,12 @@ export default function Project({ navhide }) {
                 <FaHtml5 style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                 <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
+                
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -223,7 +216,7 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={github} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaGitAlt style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -291,11 +284,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -304,7 +297,7 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={github} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaGitAlt style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -372,11 +365,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -385,7 +378,7 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={github} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaGitAlt style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -453,11 +446,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -465,12 +458,12 @@ export default function Project({ navhide }) {
                 
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={flask} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiFlask style={{ height: "55px", width: "55px" ,color:"black"}}/>
+                
               </div>
               <div className="img-box">
-
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+                <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
+               
               </div>
 
 
@@ -538,11 +531,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -551,11 +544,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={flask} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiFlask style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+               <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -625,11 +618,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -638,11 +631,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={flask} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiFlask style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+               <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -710,11 +703,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
 
               <div className="img-box">
@@ -723,11 +716,11 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={flask} alt="" style={{ height: "55px", width: "55px" }} />
+                <SiFlask style={{ height: "55px", width: "55px" ,color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+               <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -795,15 +788,15 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+               <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 
@@ -871,15 +864,15 @@ export default function Project({ navhide }) {
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={css} alt="" style={{ height: "55px", width: "55px", objectFit: "cover" }} />
+                <FaCss3Alt style={{ height: "55px", width: "55px",color:"black"}}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={js} alt="" style={{ height: "55px", width: "55px" }} />
+                <IoLogoJavascript  style={{ height: "55px", width: "55px",color:"black" }}/>
               </div>
               <div className="img-box">
 
-                <img className='img-hover' src={bootstrap} alt="" style={{ height: "55px", width: "55px" }} />
+               <FaBootstrap style={{ height: "55px", width: "55px",color:"black" }} />
               </div>
 
 

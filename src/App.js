@@ -54,7 +54,7 @@ function App() {
 
       <Mobilenav startLoader={startLoader}/>
       </div>
-      <div style={{ backgroundColor: "#151515"}}>
+      <div style={{ backgroundColor: "#151515",height:"100vh"}}>
 
         <Navebar startLoader={startLoader} navhide={navhide} handleclose={handleclose} showclick={showclick} />
         <Routes>
