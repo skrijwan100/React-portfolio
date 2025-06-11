@@ -22,7 +22,7 @@ export default function Project({ navhide }) {
     <div style={{ backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
       <div className="main-project-box" style={{ marginLeft: navhide ? "80px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
 
-        <div className="project-box">
+        <div className="project-box" id='frist1'>
           <div className="title-box">PPT maker AI (MERN)</div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
             <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid #fa5c0e", display: "flex", alignItems: "center", justifyContent: "center" }}>
