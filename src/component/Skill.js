@@ -6,6 +6,7 @@ import { FaReact ,FaHtml5 ,FaPython  } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiGithubBadge } from "react-icons/di";
 import { AiOutlineThunderbolt } from "react-icons/ai";
+import { SiRazorpay } from "react-icons/si";
 export default function Skill({ navhide }) {
   return (
     <div style={{ width: "100vw", backgroundColor: "#151515" }}>
