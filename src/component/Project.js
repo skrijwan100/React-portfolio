@@ -131,7 +131,7 @@ export default function Project({ navhide }) {
 
               </div>
               <div className="img-box">
-                <SiRazorpay style={{ height: "55px", width: "55px", color: "black" }} />
+                <SiRazorpay  style={{ height: "55px", width: "55px", color: "black" }} />
 
               </div>
 
