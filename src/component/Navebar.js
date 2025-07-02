@@ -42,6 +42,8 @@ export default function Navebar({startLoader,handleclose,showclick,navhide}) {
 
                         <Link onClick={loctaion.pathname==="/skill"?null:handleclick} to="/skill" className={`${loctaion.pathname === "/skill" ? "active" : "dactive"}`}><div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/skill"?skillcolor:skill}alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /> <li  style={{ cursor: "pointer" }} className="home">Skills</li></div></Link>
 
+                        <Link onClick={loctaion.pathname==="/certificate"?null:handleclick} to="/certificate" className={`${loctaion.pathname === "/certificate" ? "active" : "dactive"}`}><div style={{display:"flex"}}><li  style={{ cursor: "pointer" }} className="home">Certificate</li></div></Link>
+
 
                         <Link onClick={loctaion.pathname==="/contact"?null:handleclick} to="/contact" className={`${loctaion.pathname === "/contact" ? "active" : "dactive"}`}> <div style={{display:"flex"}}><img className='mx-2' src={loctaion.pathname==="/contact"?conatc:conatccolor}alt="" style={{width:"25px",height:"25px",marginTop:"50px",marginRight:"5px"}} /><li  style={{ cursor: "pointer" }} className="home">contact me</li></div></Link>
                     </ul>

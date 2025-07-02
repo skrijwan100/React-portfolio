@@ -15,6 +15,7 @@ import { useState } from 'react';
 import "./media.css"
 import Alert from './component/Alert';
 import Mobilenav from './component/Mobilenav';
+import Certificate from './component/Certificate';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -61,6 +62,7 @@ function App() {
           <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />} />
           <Route path='/project' element={<Project navhide={navhide} />} />
           <Route path='/skill' element={<Skill navhide={navhide}/>} />
+          <Route path='/certificate' element={<Certificate/>} />
           <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert} />} />
         </Routes>
       </div>
