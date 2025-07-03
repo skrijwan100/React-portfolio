@@ -3,7 +3,7 @@ import React from 'react'
 export default function Certificate() {
   return (
     <div>
-      <h1>This is Certificate show page.</h1>
+      <header style={{color:"white"}}>All of the Certificate i have.</header>
     </div>
   )
 }
