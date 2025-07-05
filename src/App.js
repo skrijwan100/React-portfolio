@@ -62,7 +62,7 @@ function App() {
           <Route path='/' element={<Home startLoader={startLoader} navhide={navhide} />} />
           <Route path='/project' element={<Project navhide={navhide} />} />
           <Route path='/skill' element={<Skill navhide={navhide}/>} />
-          <Route path='/certificate' element={<Certificate/>} />
+          <Route path='/certificate' element={<Certificate navhide={navhide} />} />
           <Route path='/contact' element={<Contact navhide={navhide} showalert={showalert} />} />
         </Routes>
       </div>
