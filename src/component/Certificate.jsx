@@ -31,12 +31,12 @@ export default function Certificate({ navhide }) {
           transition: "margin-left 0.4s ease-in-out",}}>
 
         <div style={cardStyle}>
-          <img src={c1} alt="my Certificate " style={{ height: "250px", width: "370px" }} />
+          <img src={c1} alt="my Certificate1 " style={{ height: "250px", width: "370px" }} />
           <p style={{ margin: "4px 0 8px 0", fontSize: "22px", color: "#fa5c0e" }}>Brainware University Hackthon(dev Innov)</p>
           <p style={{ margin: "0 0 8px 0", fontSize: "16px", color: "white" }}> <b>Date:</b> Augest 2024</p>
         </div>
         <div style={cardStyle}>
-          <img src={c2} alt="my Certificate " style={{ height: "250px", width: "370px" }} />
+          <img src={c2} alt="my Certificate2 " style={{ height: "250px", width: "370px" }} />
           <p style={{ margin: "4px 0 8px 0", fontSize: "22px", color: "#fa5c0e" }}>BWU Hackthon (Innoveture 2K25)</p>
           <p style={{ margin: "0 0 8px 0", fontSize: "16px", color: "white" }}> <b>Date:</b> March 2025</p>
         </div>
