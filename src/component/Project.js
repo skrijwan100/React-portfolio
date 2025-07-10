@@ -14,6 +14,7 @@ import noteboox from "../Asset/ssorvedio/notebook.png"
 import pptai from "../assets/pptai.png"
 import smartcaten from "../assets/smartcateen.png"
 import solvemate from "../assets/slovemate.png"
+import npmauth from "../assets/Screenshot 2025-07-11 003811.png"
 import { FaReact, FaHtml5, FaPython } from "react-icons/fa6";
 import { FaNodeJs, FaCss3Alt, FaBootstrap, FaGitAlt } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiFlask } from "react-icons/si";
@@ -258,7 +259,7 @@ export default function Project({ navhide }) {
           <div className="title-box">SIMPLE-AUTH-KIT(NPM Package)</div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
             <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid #fa5c0e", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <img className='resclass' src={smartcaten} alt="" style={{ height: "350px" }} />
+              <img className='resclass' src={npmauth} alt="" style={{ height: "350px" }} />
             </div>
           </div>
           <div className="about-box">
