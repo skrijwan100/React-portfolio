@@ -61,5 +61,15 @@
     .title-box{
         font-size: 20px;
     }
+    .cimg{
+        width: 320px !important;
+    }
+    .pnav{
+        margin-left: 0px !important;
+    }
+    .cphone{
+        margin-left: 0px !important;
+        
+    }
 
 }
