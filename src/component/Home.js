@@ -27,6 +27,8 @@ export default function Home({ navhide, startLoader }) {
             1500, // wait 1s before replacing "Mice" with "Hamsters"
             'I am a MERN  Developer',
             1500,
+            'I am a Blockchain Developer',
+            1500,
             'I am a React Developer',
             1500,
             'I am a Flask Developer',
