@@ -18,6 +18,8 @@ import npmauth from "../assets/Screenshot 2025-07-11 003811.png"
 import block1 from "../assets/block1.png"
 import block2 from "../assets/block2.png"
 import block3 from "../assets/block3.png"
+import block4 from "../assets/block4.png"
+import block5 from "../assets/block5.png"
 import { FaReact, FaHtml5, FaPython } from "react-icons/fa6";
 import { FaNodeJs, FaCss3Alt, FaBootstrap, FaGitAlt } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiFlask } from "react-icons/si";
@@ -31,6 +33,153 @@ export default function Project({ navhide }) {
     <div style={{ backgroundColor: "#151515", paddingTop: "10px", color: "white" }}>
       <div className="main-project-box" style={{ marginLeft: navhide ? "80px" : "202px", transition: "margin-left 0.4s ease-in-out" }}>
 
+        <div className="project-box" id='frist1'>
+          <div className="title-box">DevMate(MERN)</div>
+          <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
+            <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid #fa5c0e", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <img className='resclass' src={block5} alt="" style={{ height: "350px" }} />
+            </div>
+          </div>
+          <div className="about-box">
+            <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
+              <div className="img-box">
+                <SiMongodb style={{ height: "55px", width: "55px", color: "black" }} />
+              </div>
+              <div className="img-box">
+                <SiExpress style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+              <div className="img-box">
+                <FaReact style={{ height: "55px", width: "55px", color: "black" }} />
+              </div>
+
+              <div className="img-box">
+                <FaNodeJs style={{ height: "55px", width: "55px", color: "black" }} />
+              </div>
+              <div className="img-box">
+                <FaGitAlt style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+              <div className="img-box">
+                <AiOutlineThunderbolt style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+            </div>
+            <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
+              <div className="github-link">
+                <Link to="https://github.com/skrijwan100/Project_patner_Finder" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                  <span>Soures code</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 74 74"
+                    height="34"
+                    width="34"
+                  >
+                    <circle strokeWidth="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                    <path
+                      fill="black"
+                      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    ></path>
+                  </svg>
+                </button></Link>
+
+              </div>
+              <div className="depoly-link">
+                <Link to="https://devmate2026.vercel.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                  <span>Depoly Link</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 74 74"
+                    height="34"
+                    width="34"
+                  >
+                    <circle strokeWidth="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                    <path
+                      fill="black"
+                      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    ></path>
+                  </svg>
+                </button></Link>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div className="project-box" id='frist1'>
+          <div className="title-box">LandChain(blockchain)</div>
+          <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
+            <div className="vedio" style={{ height: "350px", width: "57vw", border: "1px solid #fa5c0e", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <img className='resclass' src={block4} alt="" style={{ height: "350px" }} />
+            </div>
+          </div>
+          <div className="about-box">
+            <div className="tech-stack" style={{ display: "flex", justifyContent: "center", gap: "50px", flexWrap: "wrap", marginBottom: "20px" }}>
+              <div className="img-box">
+                <SiHiveBlockchain style={{ height: "55px", width: "55px", color: "black" }} />
+              </div>
+              <div className="img-box">
+                <FaReact style={{ height: "55px", width: "55px", color: "black" }} />
+              </div>
+
+              <div className="img-box">
+                <FaGitAlt style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+              <div className="img-box">
+                <FaEthereum style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+              <div className="img-box">
+                <FaHardHat style={{ height: "55px", width: "55px", color: "black" }} />
+
+              </div>
+            </div>
+            <div className="link-box" style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginBottom: "20px" }}>
+              <div className="github-link">
+                <Link to="https://github.com/skrijwan100/LandChain" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                  <span>Soures code</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 74 74"
+                    height="34"
+                    width="34"
+                  >
+                    <circle strokeWidth="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                    <path
+                      fill="black"
+                      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    ></path>
+                  </svg>
+                </button></Link>
+
+              </div>
+              <div className="depoly-link">
+                <Link to="https://land-chain-nine.vercel.app/" target='_blank' style={{ textDecoration: "none" }}><button className='code-btn'>
+                  <span>Depoly Link</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 74 74"
+                    height="34"
+                    width="34"
+                  >
+                    <circle strokeWidth="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                    <path
+                      fill="black"
+                      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    ></path>
+                  </svg>
+                </button></Link>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
         <div className="project-box" id='frist1'>
           <div className="title-box">StateChain Reporter(blockchain)</div>
           <div className="vedio-box" style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "18px 0px" }}>
